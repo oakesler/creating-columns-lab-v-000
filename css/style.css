@@ -48,7 +48,7 @@ img:hover {
 
 .column {
   display: block;
-  column-width: 150px;
+  column-width: 145px;
   
   /*width: 28%;*/
   /*float: left;*/
@@ -58,14 +58,15 @@ img:hover {
   display: block;
   /*width: 35%;*/
   /*padding-left: 0;*/
-  column-width: 150px;
+  column-width: 145px;
 }
 
 .sub_class {
-  display: block;
+  display: inline-block;
+  text-align: right;
   /*width: 75%;*/
-  column-width: 110px;
-  float: right;
+  /*column-width: 90px;*/
+ /* width: fit-content;*/
 }
 
 
