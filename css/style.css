@@ -48,17 +48,24 @@ img:hover {
 
 .column {
   display: block;
-  width: 30%;
+  column-width: 150px;
+  
+  /*width: 28%;*/
+  /*float: left;*/
 }
 
 .big_column {
-  display: inline-block;
-  width: 30%;
+  display: block;
+  /*width: 35%;*/
+  /*padding-left: 0;*/
+  column-width: 150px;
 }
 
 .sub_class {
-  display: inline-block;
-  width: 50%;
+  display: block;
+  /*width: 75%;*/
+  column-width: 110px;
+  float: right;
 }
 
 
@@ -76,5 +83,4 @@ img:hover {
 .large {
   width: 303%;
   height: 303%;
-  /*text-align: center;*/
 }
