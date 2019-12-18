@@ -46,11 +46,19 @@ img:hover {
   background-color: #dd4444;
 }
 
-/* create a column class! make sure all of the divs within 'container's have a class of 'column' */
-
 .column {
+  display: block;
+  width: 30%;
+}
+
+.big_column {
   display: inline-block;
   width: 30%;
+}
+
+.sub_class {
+  display: inline-block;
+  width: 50%;
 }
 
 
@@ -61,11 +69,12 @@ img:hover {
 }
 
 .med {
-  width: 201.5%;
-  height: 201.5%;
+  width: 175%;
+  height: 175%;
 }
 
 .large {
   width: 303%;
   height: 303%;
+  /*text-align: center;*/
 }
