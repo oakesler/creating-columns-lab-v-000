@@ -49,24 +49,21 @@ img:hover {
 .column {
   display: block;
   column-width: 145px;
-  
-  /*width: 28%;*/
-  /*float: left;*/
 }
 
 .big_column {
-  display: block;
-  /*width: 35%;*/
-  /*padding-left: 0;*/
+  position: block;learn save
+  
+  /*display: block;*/
   column-width: 145px;
 }
 
 .sub_class {
-  display: inline-block;
-  text-align: right;
-  /*width: 75%;*/
-  /*column-width: 90px;*/
- /* width: fit-content;*/
+  display: block;
+  column-width: 90px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 
