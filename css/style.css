@@ -52,20 +52,17 @@ img:hover {
 }
 
 .big_column {
-  position: block;learn save
-  
-  /*display: block;*/
+  display: block;
+  position: relative;
   column-width: 145px;
 }
 
 .sub_class {
   display: block;
-  column-width: 90px;
+  column-width: 100px;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  width: 130%;
 }
-
 
 /* create your tile classes! we recommend .small .med .large */
 .small {
