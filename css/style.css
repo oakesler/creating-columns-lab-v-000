@@ -89,7 +89,6 @@ img:hover {
 }
 
 .large {
-  /*width: 260%;
-  height: 260%;
-  float: left;*/
+  display: block;
+  width: 100%;
 }
