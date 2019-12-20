@@ -47,35 +47,50 @@ img:hover {
 }
 
 .column {
-  display: block;
-  column-width: 145px;
+  display: inline-block;
+  width: 30%;
+  padding: 0;
+  margin: 0;
 }
 
-.big_column {
+/*
+.column {
   display: block;
   position: relative;
   column-width: 145px;
 }
 
+.big_column {
+  display: block;
+  /*position: relative;*/
+  /*column-width: 145px;*/
+  /*width: 30%;
+}
+
 .sub_class {
   display: block;
-  column-width: 100px;
-  position: absolute;
-  width: 130%;
-}
+  /*column-width: 100px;
+  position: relative;*/
+  /*width: 80%;
 
 /* create your tile classes! we recommend .small .med .large */
 .small {
   width: 100%;
   height: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .med {
-  width: 175%;
-  height: 175%;
+  width: 210%;
+  height: 210%;
+  padding: 0;
+  margin: 0;
 }
 
 .large {
-  width: 303%;
-  height: 303%;
+  width: 125%;
+  height: 125%;
+  padding: 0;
+  margin: 0;
 }
