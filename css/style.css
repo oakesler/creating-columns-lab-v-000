@@ -89,7 +89,7 @@ img:hover {
 }
 
 .large {
-  display: block;
+  display: inline-block;
   width: 200%;
   height: 200%;
 }
