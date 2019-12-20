@@ -91,5 +91,5 @@ img:hover {
 .large {
   width: 260%;
   height: 260%;
-  column-width: auto;
+  vertical-align: top;
 }
