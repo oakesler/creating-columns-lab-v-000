@@ -91,4 +91,6 @@ img:hover {
 .large {
   width: 260%;
   height: 260%;
+  padding: 0;
+  margin: 0;
 }
