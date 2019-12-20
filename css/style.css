@@ -93,4 +93,5 @@ img:hover {
   height: 260%;
   float: left;*/
   column-width: 200px;
+  vertical-align: top;
 }
